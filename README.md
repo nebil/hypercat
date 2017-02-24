@@ -53,3 +53,9 @@ This little project was made possible with the help of
 - [GitHub](https://github.com)’s octocat,
 - the fresh and original design made by [@tholman](https://github.com/tholman),
 - and [Inkscape](https://inkscape.org), the open-source vector graphics editor.
+
+## License
+
+Copyright © 2017, Nebil Kawas García  
+This project is subject to the terms of the [Mozilla Public License](
+https://www.mozilla.org/MPL/2.0/).
