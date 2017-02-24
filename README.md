@@ -19,7 +19,11 @@ To put a hypercat in a document, please follow these simple steps.
    </a>
    ```
 
-3. Add the following line into your HTML document, after the opening `<body>` tag.
+3. Add the following line into your HTML document, after the opening `<body>` tag.  
+  (This is just one way—of a handful of different approaches—to embed an SVG file.  
+   You can learn more in
+   [this short tutorial](https://www.sitepoint.com/add-svg-to-web-page/)—or maybe,
+   you’d rather read a somewhat [extended one](https://css-tricks.com/using-svg/).)
 
    ```html
    <object data='hypercat.svg' type='image/svg+xml'></object>
