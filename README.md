@@ -32,7 +32,7 @@ To put a hypercat in a document, please follow these simple steps.
 4. Finally, attach this CSS rule into your stylesheet.
 
    ```css
-   object {
+   object[data='hypercat.svg'] {
      position: absolute;
        top: 0px;
      right: 0px;
