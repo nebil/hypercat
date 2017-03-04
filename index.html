@@ -22,5 +22,41 @@
     <object data='hypercat.svg' type='image/svg+xml'></object>
 
     <h1>hypercat</h1>
+    <h2>An
+      <a href='https://en.wikipedia.org/wiki/Scalable_Vector_Graphics'>SVG</a>-based
+      <a href='https://octodex.github.com'>octocat</a>-flavored
+      hyperlink to your GitHub repository.
+    </h2>
+
+    <section>
+      <h3>How to use it</h3>
+      <ol>
+        <li>
+          Copy
+          <a href='https://github.com/nebil/hypercat/blob/master/hypercat.svg'>
+          this file</a> file into your project.
+        </li>
+        <li>
+          Adapt the <code>href</code> value, and (maybe) the <code>title</code> one.
+        </li>
+        <li>
+          Add the following line into your HTML document,
+          after the opening <code>&lt;body&gt;</code> tag.
+          <pre>
+&lt;object data='hypercat.svg' type='image/svg+xml'&gt;&lt;/object&gt;
+</pre>
+        </li>
+        <li>
+          Finally, attach this CSS rule into your stylesheet.
+          <pre>
+object[data='hypercat.svg'] {
+  position: absolute;
+       top: 0px;
+     right: 0px;
+}
+</pre>
+        </li>
+      </ol>
+    </section>
   </body>
 </html>
