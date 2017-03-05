@@ -19,8 +19,8 @@
     }
 
     path#quarter:hover {
-        fill: #555;
-      stroke: #555;
+        fill: #3A3A3A;
+      stroke: #3A3A3A;
     }
 
     path#octocat {
