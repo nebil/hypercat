@@ -9,6 +9,8 @@
   <head>
     <meta charset='utf-8'>
     <title>Hypercat</title>
+    <link rel='stylesheet' media='screen'
+    href='https://fonts.googleapis.com/css?family=Fira+Sans:600,700,900|Roboto|Roboto+Mono'>
     <style media='screen'>
       body {
         margin: 0px auto;
@@ -17,14 +19,39 @@
 
         background-color: #FAFAFA;
         color: #333;
-        font-family: Liberation Sans, Helvetica, Arial, sans-serif;
+        font-family: Roboto, Liberation Sans, Helvetica, Arial, sans-serif;
         line-height: 180%;
         text-rendering: optimizeLegibility;
         -moz-text-size-adjust: none; /* fix for Firefox on mobile devices */
       }
 
+      h1, h2, h3 {
+        font-family: Fira Sans, Liberation Sans, Helvetica, Arial, sans-serif;
+      }
+
+      h1 {
+        font-size: 5.5em;
+        font-weight: 900;
+      }
+
+      h2 {
+        font-size: 2.1em;
+        font-weight: 700;
+        line-height: 130%;
+      }
+
+      h3 {
+        margin-top: 2.8ex;
+        font-size: 1.65em;
+        font-weight: 600;
+      }
+
       a, span.hyper {
         color: #33A;
+      }
+
+      code, pre {
+        font-family: Roboto Mono, monospace;
       }
 
       pre {
