@@ -46,6 +46,8 @@ This repository was inspired by
 I created a slightly different design, offering some round corners
 and a colorful animation. :art:
 
+You can check a [**live demo**](https://nebil.github.io/hypercat).
+
 ## Credits
 
 This little project was made possible with the help of
