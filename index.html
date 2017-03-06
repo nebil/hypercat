@@ -13,6 +13,12 @@
     href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
     <link rel='stylesheet' media='screen'
     href='https://fonts.googleapis.com/css?family=Fira+Sans:600,700,900|Roboto|Roboto+Mono'>
+    <link rel='stylesheet' media='screen'
+    href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css'>
+    <script
+    src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js'>
+    </script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <link rel='stylesheet' media='screen' href='style.css'>
   </head>
 
@@ -40,19 +46,19 @@
         <li>
           Add the following line into your HTML document,
           after the opening <code>&lt;body&gt;</code> tag.
-          <pre>
-&lt;object data='hypercat.svg' type='image/svg+xml'&gt;&lt;/object&gt;
-</pre>
+          <pre><code><!--
+-->&lt;object data='hypercat.svg' type='image/svg+xml'&gt;&lt;/object&gt;
+</code></pre>
         </li>
         <li>
           Finally, attach this CSS rule into your stylesheet.
-          <pre>
-object[data='hypercat.svg'] {
+          <pre><code><!--
+-->object[data='hypercat.svg'] {
   position: absolute;
        top: 0px;
      right: 0px;
 }
-</pre>
+</code></pre>
         </li>
       </ol>
     </section>
