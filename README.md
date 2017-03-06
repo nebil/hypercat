@@ -56,6 +56,10 @@ This little project was made possible with the help of
 - the fresh and original design made by [@tholman](https://github.com/tholman),
 - and [Inkscape](https://inkscape.org), the open-source vector graphics editor.
 
+And the demo was built with [normalize.css](https://necolas.github.io/normalize.css),
+[highlight.js](https://highlightjs.org), and two aesthetic type families:
+[Fira](https://github.com/mozilla/Fira) & [Roboto](https://github.com/google/roboto).
+
 ## License
 
 Copyright © 2017, Nebil Kawas García  
