@@ -7,7 +7,7 @@ You can obtain a copy of the MPL at <https://www.mozilla.org/MPL/2.0/>.
 body {
   margin: 0px auto;
   padding: 2ex 3em;
-  max-width: 40em;
+  max-width: 680px;
 
   background-color: #FAFAFA;
   color: #4A4A4A;
@@ -29,7 +29,7 @@ h1 {
 
 h2 {
   color: #444;
-  font-size: 2.1em;
+  font-size: 2.25em;
   font-weight: 700;
   line-height: 130%;
 }
@@ -49,8 +49,12 @@ code, pre {
   font-family: Roboto Mono, monospace;
 }
 
+code.hljs {
+    padding: 1.5ex 0em 1.5ex 1.25em;
+}
+
 pre {
-  margin: 0.4ex 0em 2ex;
+  margin: 0.8ex 0em 2ex;
   line-height: 160%;
 }
 
